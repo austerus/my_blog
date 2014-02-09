@@ -1,0 +1,6 @@
+[submodule "themes/coolblue"]
+	path = themes/coolblue
+	url = git@github.com:austerus/hexo-theme-coolblue.git
+[submodule "themes/landscape"]
+	path = themes/landscape
+	url = git@github.com:austerus/hexo-theme-landscape.git
