@@ -1,0 +1,91 @@
+date: 2014-02-06 10:30:06.027
+argv: node /usr/bin/hexo generate
+os: Linux 2.6.32-042stab081.5 linux x64
+version:
+  hexo: 2.4.5
+  http_parser: 1.0
+  node: 0.10.25
+  v8: 3.14.5.9
+  ares: 1.9.0-DEV
+  uv: 0.10.23
+  zlib: 1.2.3
+  modules: 11
+  openssl: 1.0.1e
+---
+
+[debug] 10:30:04.397 Configuration file load successfully
+[debug] 10:30:04.399 Version info checked successfully
+[debug] 10:30:04.432 Loading database.
+[debug] 10:30:04.485 Plugin loaded successfully: hexo-generator-feed
+[debug] 10:30:04.505 Plugin loaded successfully: hexo-generator-sitemap
+[debug] 10:30:04.508 Plugin loaded successfully: hexo-renderer-haml
+[debug] 10:30:04.804 Plugin loaded successfully: hexo-renderer-jade
+[debug] 10:30:04.807 Script load successfully: fancybox.js
+[debug] 10:30:04.880 Theme layout loaded
+[debug] 10:30:04.903 Theme configuration loaded
+[debug] 10:30:04.961 Theme source loaded
+[debug] 10:30:05.361 Processed: cool/index.md
+[debug] 10:30:05.362 Processed: resume/index.md
+[debug] 10:30:05.362 Processed: _posts/first-post.md
+[debug] 10:30:05.362 Processed: _posts/my-political-stance.md
+[debug] 10:30:05.362 Processed: _posts/symfony-2-project-setup-for-windows.md
+[debug] 10:30:05.362 Processed: _posts/tutorial-install-edimax-ew7711ln-pci-wifi-on-ubuntu.md
+[debug] 10:30:05.365 Cache saved
+[info] 10:30:05.425 Files loaded in 0.617s
+[debug] 10:30:05.429 Public folder not exists. No need to clear public folder.
+[debug] 10:30:05.431 Render archive: archives/
+[debug] 10:30:05.431 Render archive: archives/2013/
+[debug] 10:30:05.431 Render archive: archives/2013/12/
+[debug] 10:30:05.432 Render archive: archives/2014/
+[debug] 10:30:05.432 Render archive: archives/2014/02/
+[debug] 10:30:05.432 Render category: categories/hexo/
+[debug] 10:30:05.432 Render category: categories/hexo/tutorials/
+[debug] 10:30:05.432 Render category: categories/hexo/tutorials/git/
+[debug] 10:30:05.432 Render category: categories/politics/
+[debug] 10:30:05.432 Render category: categories/tutorials/
+[debug] 10:30:05.432 Render category: categories/tutorials/windows/
+[debug] 10:30:05.432 Render category: categories/tutorials/windows/php/
+[debug] 10:30:05.432 Render category: categories/tutorials/linux/
+[debug] 10:30:05.432 Render index: 
+[debug] 10:30:05.432 Render page: cool/index.html
+[debug] 10:30:05.432 Render page: resume/index.html
+[debug] 10:30:05.432 Render post: 2014/02/06/my-political-stance/
+[debug] 10:30:05.432 Render post: 2014/02/05/tutorial-install-edimax-ew7711ln-pci-wifi-on-ubuntu/
+[debug] 10:30:05.432 Render post: 2014/02/05/first-post/
+[debug] 10:30:05.433 Render post: 2013/12/26/symfony-2-project-setup-for-windows/
+[debug] 10:30:05.433 Render tag: tags/hello world/
+[debug] 10:30:05.433 Render tag: tags/git/
+[debug] 10:30:05.433 Render tag: tags/hexo/
+[debug] 10:30:05.433 Render tag: tags/bitbucket/
+[debug] 10:30:05.433 Render tag: tags/tutorial/
+[debug] 10:30:05.433 Render tag: tags/politics/
+[debug] 10:30:05.433 Render tag: tags/social attitude/
+[debug] 10:30:05.433 Render tag: tags/windows/
+[debug] 10:30:05.433 Render tag: tags/symfony 2/
+[debug] 10:30:05.433 Render tag: tags/php/
+[debug] 10:30:05.433 Render tag: tags/linux/
+[debug] 10:30:05.433 Render tag: tags/ubuntu/
+[debug] 10:30:05.434 Render tag: tags/wifi/
+[error] 10:30:06.024 HexoError: Render failed: css/style.css
+ParseError: /usr/share/nginx/dragonflame/themes/landscape/source/css/_partial/article.styl:115
+   111|     font-size: 0.9em
+   112|     margin-top: 0.5em
+   113|     position: relative
+   114|     text-align: center
+ > 115|   // http://webdesignerwall.com/tutorials/css-elastic-videos
+   116|   .video-container
+   117|     position: relative
+   118|     padding-top: (9 / 16 * 100)% // 16:9 ratio
+
+unexpected "indent"
+
+    at Parser.error (/usr/lib/node_modules/hexo/node_modules/stylus/lib/parser.js:179:11)
+    at Parser.stmt (/usr/lib/node_modules/hexo/node_modules/stylus/lib/parser.js:665:32)
+    at Parser.statement (/usr/lib/node_modules/hexo/node_modules/stylus/lib/parser.js:540:21)
+    at Parser.parse (/usr/lib/node_modules/hexo/node_modules/stylus/lib/parser.js:158:23)
+    at Evaluator.importFile (/usr/lib/node_modules/hexo/node_modules/stylus/lib/visitor/evaluator.js:91:20)
+    at Evaluator.visitImport (/usr/lib/node_modules/hexo/node_modules/stylus/lib/visitor/evaluator.js:889:27)
+    at Evaluator.Visitor.visit (/usr/lib/node_modules/hexo/node_modules/stylus/lib/visitor/index.js:28:40)
+    at Evaluator.visit (/usr/lib/node_modules/hexo/node_modules/stylus/lib/visitor/evaluator.js:160:18)
+    at Evaluator.visitRoot (/usr/lib/node_modules/hexo/node_modules/stylus/lib/visitor/evaluator.js:715:27)
+    at Evaluator.Visitor.visit (/usr/lib/node_modules/hexo/node_modules/stylus/lib/visitor/index.js:28:40)
