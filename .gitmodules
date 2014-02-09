@@ -4,3 +4,6 @@
 [submodule "themes/landscape"]
 	path = themes/landscape
 	url = git@github.com:austerus/hexo-theme-landscape.git
+[submodule "source"]
+	path = source
+	url = git@bitbucket.org:austerus/hexo_blog.git
